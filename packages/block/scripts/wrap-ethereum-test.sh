@@ -11,7 +11,7 @@
 
 URL=$1
 
-DATE=`date +%Y-%m-%d`
+DATE=`date +24-10-10`
 COMMIT=$(echo "$URL" | sed -E 's/.+\/([a-f0-9]+)\/.+/\1/')
 FILENAME=$(echo $URL | sed -E 's/.+\/([^\/]+)$/\1/')
 
