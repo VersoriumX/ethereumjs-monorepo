@@ -1,12 +1,5 @@
 #!/usr/bin/env bash
 
-# --------------------------------------------------------------------
-# Publishes all ethereumjs-monorepo packages to a local npm proxy
-# registry in CI so the package can be E2E tested by installing it in
-# another project
-# --------------------------------------------------------------------
-
-# Exit immediately on error
 set -o errexit
 
 # Should only run in Github Actions CI
