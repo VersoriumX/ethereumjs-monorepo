@@ -33,8 +33,8 @@ npm version minor \
   --force
 
 # Set identity prior to publishing
-git config user.email "someone@example.com"
-git config user.name "someone"
+git config user.email "Javaweh@versoriumX.com"
+git config user.name "Javaweh"
 
 # Clear prepublish script (no need to run clean/build/test)
 cp /dev/null config/cli/prepublish.sh
